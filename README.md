@@ -7,7 +7,7 @@
 この機能により、地質画像上をクリックすると、全国任意の場所の地質情報がポップアップ画像として得られます。 
 
 #### 補足
-本スクリプトは以下の既存スクリプトの改良版です。
+本スクリプトは以下の既存スクリプトの改良版です。<br>
 https://gist.github.com/rclark/6908938
 
 外部ライブラリの「proj4」及び「jQuery」は必要ありません。
@@ -15,7 +15,7 @@ https://gist.github.com/rclark/6908938
 また、以下のコードを参考としています。
 
 #### 参考
-Leaflet-GetFeatureInfo :
+Leaflet-GetFeatureInfo :<br>
 https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
 
 ## 注意事項
@@ -35,5 +35,6 @@ https://www.gsj.jp/license/
 https://gist.github.com/rclark/6908938
 
 #### 出典：
-産総研地質調査総合センターウェブサイト (https://gbank.gsj.jp/owscontents/lv_example.html)
+産総研地質調査総合センターウェブサイト<br>
+(https://gbank.gsj.jp/owscontents/lv_example.html)
 
