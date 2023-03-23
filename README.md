@@ -1,2 +1,39 @@
 # Leaflet-GetFeatureInfo
- 
+
+## Description
+
+### L.TileLayer.BetterWMS.js :
+地図描画用のライブラリ (Leaflet) に読み込んだWMS上でGetFeatureInfo機能を有効にします。
+この機能により、地質画像上をクリックすると、全国任意の場所の地質情報がポップアップ画像として得られます。 
+
+#### 補足
+本スクリプトは以下の既存スクリプトの改良版です。
+https://gist.github.com/rclark/6908938
+
+外部ライブラリの「proj4」及び「jQuery」は必要ありません。
+
+また、以下のコードを参考としています。
+
+#### 参考
+Leaflet-GetFeatureInfo :
+https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
+
+## 注意事項
+
+### 前提として
+
+- **ご使用にあたり「全ては自己責任で行う」これが前提です。当方は一切の責任を負いかねます。**
+
+## License
+
+- **利用に際しては、各ライブラリのライセンスに従ってください。**
+
+### Leaflet-GetFeatureInfo :
+https://www.gsj.jp/license/
+
+### Leaflet WMS + GetFeatureInfo :
+https://gist.github.com/rclark/6908938
+
+#### 出典：
+産総研地質調査総合センターウェブサイト (https://gbank.gsj.jp/owscontents/lv_example.html)
+
