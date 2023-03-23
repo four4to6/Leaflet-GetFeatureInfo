@@ -34,17 +34,24 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
     // Construct a GetFeatureInfo request URL given a point
     const point = this._map.latLngToContainerPoint(latlng, this._map.getZoom());
     const size = this._map.getSize();
-    const srs = 'EPSG:4326';
     const bounds = this._map.getBounds();
+    // this crs is used to show layer added to map
+    const crs = this.options.crs || this._map.options.crs;
+    // these are the SouthWest and NorthEast points 
+    // projected from LatLng into used crs
+    const sw = crs.project(bounds.getSouthWest());
+    const ne = crs.project(bounds.getNorthEast());
     const params = {
       request: 'GetFeatureInfo',
       service: 'WMS',
-      srs: srs,
+      // this is the code of used crs
+      srs: crs.code,
       styles: this.wmsParams.styles,
       transparent: this.wmsParams.transparent,
       version: this.wmsParams.version,
       format: this.wmsParams.format,
-      bbox: bounds.toBBoxString(),
+      // these are bbox defined by SouthWest and NorthEast coords
+      bbox: sw.x + ',' + sw.y + ',' + ne.x + ',' + ne.y,
       height: size.y,
       width: size.x,
       layers: this.wmsParams.layers,
