@@ -17,8 +17,8 @@ https://gist.github.com/rclark/6908938
 #### 参考
 Leaflet-GetFeatureInfo :<br>
 https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
-
 <br>
+
 ```Javascript
 //地質図、ライン、ラベルの表示
 const detailLayer = L.tileLayer.betterWms('https://gbank.gsj.jp/ows/seamlessgeology200k_d', {
