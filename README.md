@@ -17,6 +17,18 @@ https://gist.github.com/rclark/6908938
 #### 参考
 Leaflet-GetFeatureInfo :<br>
 https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
+<br>
+
+```Javascript
+//地質図、ライン、ラベルの表示
+const detailLayer = L.tileLayer.betterWms('https://gbank.gsj.jp/ows/seamlessgeology200k_d', {
+  layers: ['area', 'line', 'label'],
+  format: 'image/png',
+  transparent: true,
+  opacity: 0.7,
+  attribution: '<a href="https://www.gsj.jp/license/license.html" target="_blank">産総研地質調査総合センター</a>'
+}).addTo(map);
+```
 
 ## 注意事項
 
