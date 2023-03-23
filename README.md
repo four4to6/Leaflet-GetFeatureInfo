@@ -17,6 +17,9 @@ https://gist.github.com/rclark/6908938
 #### 参考
 Leaflet-GetFeatureInfo :<br>
 https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
+ 
+WMS GetFeatureInfo and Leaflet :<br>
+https://gis.stackexchange.com/questions/177444/wms-getfeatureinfo-and-leaflet
 <br>
 
 ```Javascript
