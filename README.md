@@ -21,6 +21,7 @@ https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo
 WMS GetFeatureInfo and Leaflet :<br>
 https://gis.stackexchange.com/questions/177444/wms-getfeatureinfo-and-leaflet
 <br>
+### Example
 
 ```Javascript
 //地質図、ライン、ラベルの表示
