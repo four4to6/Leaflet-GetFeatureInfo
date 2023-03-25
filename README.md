@@ -50,7 +50,7 @@ https://www.gsj.jp/license/
 ### Leaflet WMS + GetFeatureInfo :
 https://gist.github.com/rclark/6908938
 
-### Public Network Terms of Service
+### Public Network Terms of Service :
 https://stackoverflow.com/legal/terms-of-service
 
 #### 出典：
